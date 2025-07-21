@@ -1,0 +1,82 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#section{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(249, 253, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 12px;
+    margin: 10px;
+}
+.shadow-text {
+    text-align: center;
+    width: 100%;
+}
+.shadow1 {
+    box-shadow: 4px 4px 15px 0px rgba(0,0,0,0.3);
+}
+.shadow2 {
+    box-shadow: inset 4px 4px 15px 0px rgba(0,0,0,0.3);
+}
+.shadow3 {
+    box-shadow: 0 8px 24px 0px rgba(0, 128, 255, 0.5);
+}
+.shadow4 {
+    box-shadow: 2px 2px 8px  #333, 8px 8px 20px  #ffb6b6;
+}
+.shadow5 {
+    box-shadow: 0 0 0 10px rgba(255, 0, 0, 0.2);
+}
+.shadow6 {
+    box-shadow: 0 4px 30px 0px rgba(0,0,0,0.15);
+}
+.shadow7 {
+    box-shadow: 8px 8px 0px 0px #333;
+}
+.shadow8 {
+    box-shadow: 0 0 30px 10px #ff0;
+}
+.shadow9 {
+    box-shadow: 20px 20px 30px 0px rgba(0,0,0,0.4);
+}
+.shadow10 {
+    box-shadow: 0 0 20px 0px #ff0080, 0 0 40px 0px #7928ca, 0 0 60px 0px #00ffea;
+}
+.shadow11 {
+    box-shadow: 20px 20px 40px  rgba(0,0,0,0.5);
+}
+.shadow12 {
+    box-shadow: 0 0 20px 5px #39ff14, 0 0 40px 10px #39ff14;
+}
+.shadow13 {
+    box-shadow: inset 0 0 30px 10px #ffd700;
+}
+.shadow14 {
+    box-shadow: 8px 8px  #b0b0b0, 16px 16px  #888;
+}
+.shadow15 {
+    box-shadow: 0 8px 32px 0px rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+}
+#section{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.shadow{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
